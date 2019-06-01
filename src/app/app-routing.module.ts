@@ -7,12 +7,14 @@ import { UserModule } from './user/user.module';
 import { TutorialComponent } from './general/tutorial/tutorial.component';
 import { LoginComponent } from './general/login/login.component';
 import { RegisterComponent } from './general/register/register.component';
+import { UserTypeComponent } from './general/user-type/user-type.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'tutorial', pathMatch: 'full'},
+  { path: '', redirectTo: '/welcome', pathMatch: 'full'},
   { path: 'tutorial', component: TutorialComponent },
   { path: 'login', component: LoginComponent },
   { path: 'register', component: RegisterComponent },
+  { path: 'welcome', component: UserTypeComponent },
 
 ];
 

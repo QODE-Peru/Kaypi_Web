@@ -1,0 +1,68 @@
+.container {
+    height: 100% !important;
+    background-color: #A456B0;
+    min-height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-logo {
+    width: 100%
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-flow: column nowrap;
+}
+
+.logo-container {
+    height: 100%;
+}
+
+.button {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-grow: 1;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.help-button {
+    background-color: #A456B0;
+    color: white;
+    border-color: white;
+    flex-grow: 1;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    font-weight: 700;
+    opacity: 1;
+    /* Firefox */
+}
+
+ :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: white;
+    font-weight: 700;
+}
+
+ ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: white;
+    font-weight: 700;
+}
+
+.volunteer-button {
+    background-color: white;
+    color: #A456B0;
+    flex-grow: 1;
+    border-color: #A456B0;
+}
