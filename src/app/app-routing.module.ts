@@ -1,17 +1,26 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { LoginComponent } from './components/login/login.component';
-import { HomeComponent } from './components/home/home.component';
+import { BrowserModule } from '@angular/platform-browser';
+import { GeneralModule } from './general/general.module';
+import { LocationModule } from './location/location.module';
+import { UserModule } from './user/user.module';
+import { TutorialComponent } from './general/tutorial/tutorial.component';
+import { LoginComponent } from './general/login/login.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/home', pathMatch: 'full'},
-  { path: 'login', component: LoginComponent},
-  { path: 'home    ', component: HomeComponent},
+  { path: '', redirectTo: '/tutorial', pathMatch: 'full'},
+  { path: 'tutorial', component: TutorialComponent },
+  { path: 'login', component: LoginComponent },
 
 ];
 
 @NgModule({
-    imports: [RouterModule.forRoot(routes, {useHash: true})],
+    imports: [
+      BrowserModule,
+      GeneralModule,
+      LocationModule,
+      UserModule,
+      RouterModule.forRoot(routes, {useHash: true})],
     exports: [RouterModule]
 })
 export class AppRoutingModule { }

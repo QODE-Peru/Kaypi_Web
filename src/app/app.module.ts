@@ -4,25 +4,25 @@ import { AppRoutingModule } from './app-routing.module';
 import { environment } from '../environments/environment';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';  
-import { LoginComponent } from './components/login/login.component';
-import { NavbarComponent } from './components/shared/navbar/navbar.component';
-import { SearchComponent } from './components/search/search.component';
-import { HomeComponent } from './components/home/home.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
+import { NavbarComponent } from './shared/navbar/navbar.component';
+import { GeneralModule } from './general/general.module';
+import { LocationModule } from './location/location.module';
+import { UserModule } from './user/user.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent,
-    NavbarComponent,
-    SearchComponent,
-    HomeComponent
+    NavbarComponent
   ],
     imports: [
       BrowserModule,
       AppRoutingModule,
-    HttpClientModule,
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
+      HttpClientModule,
+      GeneralModule,
+      LocationModule,
+      UserModule,
+      ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
   bootstrap: [AppComponent]
