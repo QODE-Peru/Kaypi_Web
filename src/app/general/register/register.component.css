@@ -1,7 +1,100 @@
 .card {
     border-color: transparent !important;
+    background-color: transparent;
 }
 
+.fab {
+    color: white;
+    font-size: 1.4rem;
+}
+
+.container {
+    height: 100% !important;
+    background-color: #A456B0;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-input:focus {
+    color: white;
+    border-color: white;
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem white;
+}
+
+.form-input {
+    border-radius: 1.25rem;
+    border-width: 2px;
+    background-color: transparent;
+    border-color: white;
+}
+
+.form-signin {
+    background-color: transparent;
+}
+
+.form-input::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    font-weight: 700;
+    opacity: 1;
+    /* Firefox */
+}
+
+.form-input:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: white;
+    font-weight: 700;
+}
+
+.form-input::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: white;
+    font-weight: 700;
+}
+
+.card-text {
+    font-weight: 500;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.link {
+    font-weight: 700;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.volunteer-button {
+    background-color: white;
+    color: #A456B0;
+    flex-grow: 1;
+    border-color: #A456B0;
+}
+
+.button {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-grow: 1;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: white;
+    color: #A456B0;
+    flex-grow: 1;
+    border-color: #A456B0;
+    border-radius: 1.25rem;
+}
+
+.logo-img {
+    width: 60%
+}
 .row {
     display: -ms-flexbox;
     display: flex;
@@ -17,3 +110,5 @@
 .logo-img {
     fill: #A456B0;
 }
+
+
