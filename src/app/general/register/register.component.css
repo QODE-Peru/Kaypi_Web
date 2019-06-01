@@ -1,0 +1,19 @@
+.card {
+    border-color: transparent !important;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    margin-left: -15px;
+}
+
+.logo-img {
+    fill: #A456B0;
+}

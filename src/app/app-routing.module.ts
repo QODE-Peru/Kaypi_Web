@@ -6,11 +6,13 @@ import { LocationModule } from './location/location.module';
 import { UserModule } from './user/user.module';
 import { TutorialComponent } from './general/tutorial/tutorial.component';
 import { LoginComponent } from './general/login/login.component';
+import { RegisterComponent } from './general/register/register.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/tutorial', pathMatch: 'full'},
+  { path: '', redirectTo: 'tutorial', pathMatch: 'full'},
   { path: 'tutorial', component: TutorialComponent },
   { path: 'login', component: LoginComponent },
+  { path: 'register', component: RegisterComponent },
 
 ];
 
