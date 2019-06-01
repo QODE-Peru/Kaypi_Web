@@ -2,9 +2,18 @@
     border-color: transparent !important;
 }
 
-.logo-container {
+.row {
+    display: -ms-flexbox;
     display: flex;
-    justify-items: center;
-    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
     flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    margin-left: -15px;
+}
+
+.logo-img {
+    fill: #A456B0;
 }

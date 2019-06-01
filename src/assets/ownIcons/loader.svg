@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 56.2 55.8" style="enable-background:new 0 0 56.2 55.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#2D77FE;}
+	.st1{fill:#5BA4FC;}
+	.st2{fill:#87C3F4;}
+	.st3{fill:#DCE3F1;}
+</style>
+<circle class="st0" cx="8.2" cy="38.7" r="4.8">
+<animate  accumulate="none" additive="replace" attributeName="cy" begin="-0.5s" calcMode="spline" dur="1s" fill="remove" keySplines="0 0.5 0.5 1;0.5 0 1 0.5;0.5 0.5 0.5 0.5" keyTimes="0;0.25;0.5;1" repeatCount="indefinite" restart="always" values="62.5;37.5;62.5;62.5">
+	</animate>
+</circle>
+<circle class="st1" cx="21.8" cy="50" r="4.8">
+<animate  accumulate="none" additive="replace" attributeName="cy" begin="-0.375s" calcMode="spline" dur="1s" fill="remove" keySplines="0 0.5 0.5 1;0.5 0 1 0.5;0.5 0.5 0.5 0.5" keyTimes="0;0.25;0.5;1" repeatCount="indefinite" restart="always" values="62.5;37.5;62.5;62.5">
+	</animate>
+</circle>
+<circle class="st2" cx="35.4" cy="50" r="4.8">
+<animate  accumulate="none" additive="replace" attributeName="cy" begin="-0.25s" calcMode="spline" dur="1s" fill="remove" keySplines="0 0.5 0.5 1;0.5 0 1 0.5;0.5 0.5 0.5 0.5" keyTimes="0;0.25;0.5;1" repeatCount="indefinite" restart="always" values="62.5;37.5;62.5;62.5">
+	</animate>
+</circle>
+<circle class="st3" cx="49" cy="50" r="4.8">
+<animate  accumulate="none" additive="replace" attributeName="cy" begin="-0.125s" calcMode="spline" dur="1s" fill="remove" keySplines="0 0.5 0.5 1;0.5 0 1 0.5;0.5 0.5 0.5 0.5" keyTimes="0;0.25;0.5;1" repeatCount="indefinite" restart="always" values="62.5;37.5;62.5;62.5">
+	</animate>
+</circle>
+</svg>
